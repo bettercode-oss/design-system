@@ -1,5 +1,5 @@
 import './style/semantic.less';
-import {Button} from "./components/atoms";
+import {Button} from "./components/atoms/button";
 
 function App() {
   return (

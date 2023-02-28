@@ -33,7 +33,7 @@ export default [
         use: {
           sass: null,
           stylus: null,
-          less: { javascriptEnabled: true }
+          less: { javascriptEnabled: true, math: "always" }
         },
         plugins: [
           require('postcss-import'),

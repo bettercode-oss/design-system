@@ -1,0 +1,15 @@
+{
+  "source": ["src/style/tokens/tokens.json"],
+  "platforms": {
+    "less": {
+      "transformGroup": "less",
+      "files": [{
+        "destination": "src/style/token-variables.less",
+        "format": "less/variables",
+        "options": {
+          "outputReferences": true
+        }
+      }]
+    }
+  }
+}

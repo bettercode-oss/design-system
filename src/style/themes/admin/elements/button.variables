@@ -1,0 +1,14 @@
+@import "../../../token-variables.less";
+
+/*******************************
+            Button
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+/* Primary */
+@primaryColor       : @core-colors-green-700;
+/* Secondary */
+@secondaryColor           : @core-colors-pink-900;
